@@ -1,0 +1,42 @@
+[04:02:44] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.6+7-LTS; Microsoft Microsoft-10800198) on Linux 6.8.0-1027-azure (amd64)
+[04:02:44] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.5-103-main@2ba1675 (2025-05-29T12:14:46Z) for Minecraft 1.21.5
+[04:02:44] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[04:02:44] [ServerMain/INFO]: [PluginInitializerManager] Initialized 0 plugins
+[04:02:45] [Paper Plugin Remapper Thread - 0/INFO]: [ReobfServer] Remapping server...
+[04:02:52] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[04:02:53] [Paper Plugin Remapper Thread - 0/INFO]: [ReobfServer] Done remapping server in 7461ms.
+[04:02:55] [ServerMain/INFO]: Loaded 1373 recipes
+[04:02:55] [ServerMain/INFO]: Loaded 1484 advancements
+[04:02:55] [Server thread/INFO]: Starting minecraft server version 1.21.5
+[04:02:55] [Server thread/INFO]: Loading properties
+[04:02:55] [Server thread/INFO]: This server is running Paper version 1.21.5-103-main@2ba1675 (2025-05-29T12:14:46Z) (Implementing API version 1.21.5-R0.1-SNAPSHOT)
+[04:02:55] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[04:02:55] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[04:02:55] [Server thread/INFO]: Using 4 threads for Netty based IO
+[04:02:56] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
+[04:02:56] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
+[04:02:56] [Server thread/INFO]: Default game type: SURVIVAL
+[04:02:56] [Server thread/INFO]: Generating keypair
+[04:02:56] [Server thread/INFO]: Starting Minecraft server on *:25565
+[04:02:57] [Server thread/INFO]: Using epoll channel type
+[04:02:57] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[04:02:57] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
+[04:02:57] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[04:02:57] [Server thread/INFO]: Preparing level "world"
+[04:02:57] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[04:02:57] [Server thread/INFO]: Preparing spawn area: 0%
+[04:02:58] [Server thread/INFO]: Preparing spawn area: 2%
+[04:02:58] [Server thread/INFO]: Preparing spawn area: 2%
+[04:02:59] [Server thread/INFO]: Preparing spawn area: 6%
+[04:02:59] [Server thread/INFO]: Preparing spawn area: 28%
+[04:02:59] [Server thread/INFO]: Time elapsed: 2128 ms
+[04:02:59] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[04:02:59] [Server thread/INFO]: Preparing spawn area: 0%
+[04:03:00] [Server thread/INFO]: Time elapsed: 351 ms
+[04:03:00] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[04:03:00] [Server thread/INFO]: Preparing spawn area: 0%
+[04:03:00] [Server thread/INFO]: Time elapsed: 267 ms
+[04:03:00] [Server thread/INFO]: [spark] Starting background profiler...
+[04:03:00] [Server thread/INFO]: Done preparing level "world" (3.518s)
+[04:03:00] [Server thread/INFO]: Running delayed init tasks
+[04:03:00] [Server thread/INFO]: Done (16.878s)! For help, type "help"
