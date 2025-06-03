@@ -1,0 +1,30 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.58.213.146
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1748930892312
+  login: 1748930543196
+money: '0'
+last-account-name: Tristan
+logoutlocation:
+  world: 7a52f934-72f9-4d80-9587-70dc834939ca
+  world-name: world
+  x: 0.9772132530793097
+  y: 65.00133597911214
+  z: 35.52007262384481
+  yaw: -23.85013771057129
+  pitch: 26.850000381469727
