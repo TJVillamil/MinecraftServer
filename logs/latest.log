@@ -1,108 +1,200 @@
-[00:46:46] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.6+7-LTS; Microsoft Microsoft-10800198) on Linux 6.8.0-1027-azure (amd64)
-[00:46:46] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.5-103-main@2ba1675 (2025-05-29T12:14:46Z) for Minecraft 1.21.5
-[00:46:48] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
-[00:46:51] [ServerMain/INFO]: [PluginInitializerManager] Initialized 4 plugins
-[00:46:51] [ServerMain/INFO]: [PluginInitializerManager] Paper plugins (1):
- - Veinminer (2.4.4)
-[00:46:51] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (3):
- - AuraSkills (2.3.3), Essentials (2.21.2-dev+2-d42347f), Vault (1.7.3-b131)
-[00:46:57] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[00:46:59] [ServerMain/INFO]: Loaded 1373 recipes
-[00:46:59] [ServerMain/INFO]: Loaded 1484 advancements
-[00:47:00] [Server thread/INFO]: Starting minecraft server version 1.21.5
-[00:47:00] [Server thread/INFO]: Loading properties
-[00:47:00] [Server thread/INFO]: This server is running Paper version 1.21.5-103-main@2ba1675 (2025-05-29T12:14:46Z) (Implementing API version 1.21.5-R0.1-SNAPSHOT)
-[00:47:00] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
-[00:47:00] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[00:47:00] [Server thread/INFO]: Using 4 threads for Netty based IO
-[00:47:00] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
-[00:47:00] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
-[00:47:00] [Server thread/INFO]: Default game type: SURVIVAL
-[00:47:00] [Server thread/INFO]: Generating keypair
-[00:47:01] [Server thread/INFO]: Starting Minecraft server on *:25565
-[00:47:01] [Server thread/INFO]: Using epoll channel type
-[00:47:01] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
-[00:47:01] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
-[00:47:01] [Server thread/INFO]: [Vault] Loading server plugin Vault v1.7.3-b131
-[00:47:01] [Server thread/INFO]: [Veinminer] Loading server plugin Veinminer v2.4.4
-[00:47:01] [Server thread/INFO]: [Veinminer] Detected platform: Paper
-[00:47:02] [Server thread/INFO]: [AuraSkills] Loading server plugin AuraSkills v2.3.3
-[00:47:02] [Server thread/INFO]: [Essentials] Loading server plugin Essentials v2.21.2-dev+2-d42347f
-[00:47:02] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[00:47:02] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
-[00:47:02] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
-[00:47:02] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
-[00:47:02] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
-[00:47:02] [Server thread/INFO]: [Veinminer] Enabling Veinminer v2.4.4
-[00:47:02] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[00:47:02] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[00:47:02] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[00:47:02] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[00:47:02] [Server thread/INFO]: Preparing level "world"
-[00:47:03] [DefaultDispatcher-worker-1/INFO]: [VeinminerUpdater] veinminer is outdated. Installed: 2.4.4 -> Latest: 2.4.5
-[00:47:03] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[00:47:03] [Server thread/INFO]: Preparing spawn area: 0%
-[00:47:04] [Server thread/INFO]: Preparing spawn area: 2%
-[00:47:04] [Server thread/INFO]: Preparing spawn area: 20%
-[00:47:04] [Server thread/INFO]: Time elapsed: 1152 ms
-[00:47:04] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[00:47:04] [Server thread/INFO]: Preparing spawn area: 0%
-[00:47:04] [Server thread/INFO]: Time elapsed: 238 ms
-[00:47:04] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[00:47:04] [Server thread/INFO]: Preparing spawn area: 0%
-[00:47:05] [Server thread/INFO]: Time elapsed: 126 ms
-[00:47:05] [Server thread/INFO]: [AuraSkills] Enabling AuraSkills v2.3.3
-[00:47:06] [Server thread/INFO]: [AuraSkills] Loaded 21 message files
-[00:47:07] [Server thread/INFO]: [AuraSkills] Successfully registered hook Vault
-[00:47:07] [Server thread/INFO]: [AuraSkills] Loaded 158 config options in 44 ms
-[00:47:07] [Server thread/INFO]: [NBTAPI] [NBTAPI] Found Minecraft: 1.21.5! Trying to find NMS support
-[00:47:07] [Server thread/INFO]: [NBTAPI] [NBTAPI] NMS support 'MC1_21_R4' loaded!
-[00:47:07] [Server thread/INFO]: [NBTAPI] [NBTAPI] Using the plugin 'AuraSkills' to create a bStats instance!
-[00:47:07] [Server thread/INFO]: [AuraSkills] Loaded 3 blocked/disabled worlds
-[00:47:07] [Server thread/INFO]: [AuraSkills] [ACF] Enabled Asynchronous Tab Completion Support!
-[00:47:08] [Server thread/INFO]: [Essentials] Enabling Essentials v2.21.2-dev+2-d42347f
-[00:47:09] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
-[00:47:09] [Server thread/INFO]: [Essentials] No kits found to migrate.
-[00:47:09] [Server thread/INFO]: [Essentials] Selected Paper Serialization Provider as the provider for SerializationProvider
-[00:47:09] [Server thread/INFO]: [Essentials] Selected Paper Container Provider as the provider for ContainerProvider
-[00:47:09] [Server thread/INFO]: [Essentials] Selected 1.20.4+ Damage Event Provider as the provider for DamageEventProvider
-[00:47:09] [Server thread/INFO]: [Essentials] Selected 1.11+ Item Unbreakable Provider as the provider for ItemUnbreakableProvider
-[00:47:09] [Server thread/INFO]: [Essentials] Selected 1.20.5+ Banner Data Provider as the provider for BannerDataProvider
-[00:47:09] [Server thread/INFO]: [Essentials] Selected 1.21.4+ Sync Commands Provider as the provider for SyncCommandsProvider
-[00:47:09] [Server thread/INFO]: [Essentials] Selected Reflection Online Mode Provider as the provider for OnlineModeProvider
-[00:47:09] [Server thread/INFO]: [Essentials] Selected 1.21+ InventoryView Interface ABI Provider as the provider for InventoryViewProvider
-[00:47:09] [Server thread/INFO]: [Essentials] Selected Paper Tick Count Provider as the provider for TickCountProvider
-[00:47:09] [Server thread/INFO]: [Essentials] Selected Paper Material Tag Provider as the provider for MaterialTagProvider
-[00:47:09] [Server thread/INFO]: [Essentials] Selected 1.14.4+ Persistent Data Container Provider as the provider for PersistentDataProvider
-[00:47:09] [Server thread/INFO]: [Essentials] Selected 1.20.6+ Potion Meta Provider as the provider for PotionMetaProvider
-[00:47:09] [Server thread/INFO]: [Essentials] Selected Paper Server State Provider as the provider for ServerStateProvider
-[00:47:09] [Server thread/INFO]: [Essentials] Selected 1.12.2+ Player Locale Provider as the provider for PlayerLocaleProvider
-[00:47:09] [Server thread/INFO]: [Essentials] Selected 1.14+ Sign Data Provider as the provider for SignDataProvider
-[00:47:09] [Server thread/INFO]: [Essentials] Selected Paper Biome Key Provider as the provider for BiomeKeyProvider
-[00:47:09] [Server thread/INFO]: [Essentials] Selected 1.12+ Spawner Block Provider as the provider for SpawnerBlockProvider
-[00:47:09] [Server thread/INFO]: [Essentials] Selected 1.8.3+ Spawner Item Provider as the provider for SpawnerItemProvider
-[00:47:09] [Server thread/INFO]: [Essentials] Selected 1.13+ Spawn Egg Provider as the provider for SpawnEggProvider
-[00:47:09] [Server thread/INFO]: [Essentials] Selected Reflection Formatted Command Alias Provider as the provider for FormattedCommandAliasProvider
-[00:47:09] [Server thread/INFO]: [Essentials] Selected 1.17.1+ World Info Provider as the provider for WorldInfoProvider
-[00:47:09] [Server thread/INFO]: [Essentials] Selected Paper Known Commands Provider as the provider for KnownCommandsProvider
-[00:47:09] [Server thread/INFO]: [Essentials] Loaded 43517 items from items.json.
-[00:47:09] [Server thread/INFO]: [Essentials] Using locale en
-[00:47:10] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
-[00:47:10] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
-[00:47:10] [Server thread/INFO]: [Vault] [Economy] Essentials Economy hooked.
-[00:47:10] [Server thread/INFO]: [Essentials] Using config file enhanced permissions.
-[00:47:10] [Server thread/INFO]: [Essentials] Permissions listed in as player-commands will be given to all users.
-[00:47:10] [Server thread/INFO]: [spark] Starting background profiler...
-[00:47:11] [Server thread/INFO]: Done preparing level "world" (9.300s)
-[00:47:11] [Server thread/INFO]: Running delayed init tasks
-[00:47:11] [Craft Scheduler Thread - 3 - Essentials/INFO]: [Essentials] Fetching version information...
-[00:47:12] [Server thread/INFO]: [AuraSkills] Loaded 11 skills with 317 total sources
-[00:47:12] [Server thread/INFO]: [AuraSkills] Loaded 9 stats and 17 traits
-[00:47:12] [Server thread/INFO]: [AuraSkills] Loaded 22 pattern rewards and 0 level rewards
-[00:47:12] [Server thread/INFO]: [AuraSkills] Loaded 53 loot entries in 4 pools and 2 tables
-[00:47:12] [Server thread/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[00:47:12] [Server thread/INFO]: [AuraSkills] Loaded 7 menus
-[00:47:12] [Server thread/INFO]: [Essentials] Essentials found a compatible payment resolution method: Vault Compatibility Layer (v1.7.3-b131)!
-[00:47:12] [Server thread/INFO]: Done (31.087s)! For help, type "help"
-[00:47:12] [Craft Scheduler Thread - 2 - Vault/INFO]: [Vault] Checking for Updates ... 
-[00:47:12] [Craft Scheduler Thread - 2 - Vault/INFO]: [Vault] No new version available
+[14:33:26] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.6+7-LTS; Microsoft Microsoft-10800198) on Linux 6.8.0-1027-azure (amd64)
+[14:33:26] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.5-103-main@2ba1675 (2025-05-29T12:14:46Z) for Minecraft 1.21.5
+[14:33:26] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[14:33:26] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Remapping plugin 'plugins/guns++-5.8.2.jar'...
+[14:33:27] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Done remapping plugin 'plugins/guns++-5.8.2.jar' in 980ms.
+[14:33:27] [ServerMain/ERROR]: [DirectoryProviderSource] Error loading plugin: java.lang.IllegalArgumentException: Directory 'plugins/.paper-remapped/guns++-5.8.2.jar' does not contain a paper-plugin.yml or plugin.yml! Could not determine plugin type, cannot load a plugin from it!
+java.lang.RuntimeException: java.lang.IllegalArgumentException: Directory 'plugins/.paper-remapped/guns++-5.8.2.jar' does not contain a paper-plugin.yml or plugin.yml! Could not determine plugin type, cannot load a plugin from it!
+	at io.papermc.paper.plugin.provider.source.FileProviderSource.registerProviders(FileProviderSource.java:85) ~[paper-1.21.5.jar:1.21.5-103-2ba1675]
+	at io.papermc.paper.plugin.provider.source.DirectoryProviderSource.registerProviders(DirectoryProviderSource.java:52) ~[paper-1.21.5.jar:1.21.5-103-2ba1675]
+	at io.papermc.paper.plugin.provider.source.DirectoryProviderSource.registerProviders(DirectoryProviderSource.java:17) ~[paper-1.21.5.jar:1.21.5-103-2ba1675]
+	at io.papermc.paper.plugin.util.EntrypointUtil.registerProvidersFromSource(EntrypointUtil.java:15) ~[paper-1.21.5.jar:1.21.5-103-2ba1675]
+	at io.papermc.paper.plugin.PluginInitializerManager.load(PluginInitializerManager.java:113) ~[paper-1.21.5.jar:1.21.5-103-2ba1675]
+	at net.minecraft.server.Main.main(Main.java:111) ~[paper-1.21.5.jar:1.21.5-103-2ba1675]
+	at io.papermc.paper.PaperBootstrap.boot(PaperBootstrap.java:21) ~[paper-1.21.5.jar:1.21.5-103-2ba1675]
+	at org.bukkit.craftbukkit.Main.main(Main.java:243) ~[paper-1.21.5.jar:1.21.5-103-2ba1675]
+	at io.papermc.paperclip.Paperclip.lambda$main$0(Paperclip.java:42) ~[app:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+Caused by: java.lang.IllegalArgumentException: Directory 'plugins/.paper-remapped/guns++-5.8.2.jar' does not contain a paper-plugin.yml or plugin.yml! Could not determine plugin type, cannot load a plugin from it!
+	... 10 more
+[14:33:27] [ServerMain/INFO]: [PluginInitializerManager] Initialized 6 plugins
+[14:33:27] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (6):
+ - AuraSkills (2.3.3), AxGraves (1.21.1), ClearLag (3.2.2), Essentials (2.21.2-dev+2-d42347f), Vault (1.7.3-b131), VeinMiner (2.3.0)
+[14:33:32] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[14:33:34] [ServerMain/INFO]: Loaded 1373 recipes
+[14:33:34] [ServerMain/INFO]: Loaded 1484 advancements
+[14:33:34] [Server thread/INFO]: Starting minecraft server version 1.21.5
+[14:33:34] [Server thread/INFO]: Loading properties
+[14:33:34] [Server thread/INFO]: This server is running Paper version 1.21.5-103-main@2ba1675 (2025-05-29T12:14:46Z) (Implementing API version 1.21.5-R0.1-SNAPSHOT)
+[14:33:34] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[14:33:34] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[14:33:34] [Server thread/INFO]: Using 4 threads for Netty based IO
+[14:33:35] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
+[14:33:35] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
+[14:33:36] [Server thread/INFO]: Default game type: SURVIVAL
+[14:33:36] [Server thread/INFO]: Generating keypair
+[14:33:36] [Server thread/INFO]: Starting Minecraft server on *:25565
+[14:33:36] [Server thread/INFO]: Using epoll channel type
+[14:33:36] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[14:33:36] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
+[14:33:36] [Server thread/INFO]: [Vault] Loading server plugin Vault v1.7.3-b131
+[14:33:36] [Server thread/INFO]: [VeinMiner] Loading server plugin VeinMiner v2.3.0
+[14:33:36] [Server thread/INFO]: [AuraSkills] Loading server plugin AuraSkills v2.3.3
+[14:33:36] [Server thread/INFO]: [ClearLag] Loading server plugin ClearLag v3.2.2
+[14:33:36] [Server thread/INFO]: [Essentials] Loading server plugin Essentials v2.21.2-dev+2-d42347f
+[14:33:36] [Server thread/INFO]: [AxGraves] Loading server plugin AxGraves v1.21.1
+[14:33:36] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[14:33:36] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
+[14:33:36] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
+[14:33:36] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[14:33:36] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
+[14:33:36] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[14:33:36] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[14:33:36] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[14:33:36] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[14:33:36] [Server thread/INFO]: Preparing level "world"
+[14:33:37] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[14:33:38] [Server thread/INFO]: Preparing spawn area: 0%
+[14:33:38] [Server thread/INFO]: Preparing spawn area: 2%
+[14:33:38] [Server thread/INFO]: Preparing spawn area: 38%
+[14:33:38] [Server thread/INFO]: Time elapsed: 1030 ms
+[14:33:38] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[14:33:38] [Server thread/INFO]: Preparing spawn area: 0%
+[14:33:39] [Server thread/INFO]: Time elapsed: 294 ms
+[14:33:39] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[14:33:39] [Server thread/INFO]: Preparing spawn area: 0%
+[14:33:39] [Server thread/INFO]: Time elapsed: 111 ms
+[14:33:39] [Server thread/INFO]: [VeinMiner] Enabling VeinMiner v2.3.0
+[14:33:39] [Server thread/INFO]: [VeinMiner] Using "sqlite" for persistent data storage.
+[14:33:39] [Server thread/INFO]: [VeinMiner] Loading configuration options to local memory
+[14:33:39] [Server thread/INFO]: [VeinMiner] Added 14 aliases.
+[14:33:39] [Server thread/INFO]: [VeinMiner] Registered category with id "Axe" holding 6 unique items and 28 unique blocks.
+[14:33:39] [Server thread/INFO]: [VeinMiner] Registered category with id "Hoe" holding 6 unique items and 12 unique blocks.
+[14:33:39] [Server thread/INFO]: [VeinMiner] Registered category with id "Pickaxe" holding 6 unique items and 20 unique blocks.
+[14:33:39] [Server thread/INFO]: [VeinMiner] Registered category with id "Shears" holding 1 unique items and 4 unique blocks.
+[14:33:39] [Server thread/INFO]: [VeinMiner] Registered category with id "Shovel" holding 6 unique items and 12 unique blocks.
+[14:33:39] [Server thread/WARN]: [VeinMiner] No block list configured for category with id "Hand"! Is this intentional?
+[14:33:39] [Server thread/INFO]: [VeinMiner] Registered category with id "Hand" holding 0 unique items and 0 unique blocks.
+[14:33:39] [Server thread/INFO]: [VeinMiner] Performing an update check!
+[14:33:39] [Server thread/INFO]: [VeinMiner] Registering commands
+[14:33:39] [Server thread/INFO]: [VeinMiner] Registering events
+[14:33:39] [Server thread/INFO]: [VeinMiner] Vault found. Attempting to enable economy support...
+[14:33:39] [Server thread/INFO]: [VeinMiner] Enabling Plugin Metrics
+[14:33:39] [Server thread/INFO]: [VeinMiner] Thanks for enabling Metrics! The anonymous stats are appreciated
+[14:33:39] [Server thread/INFO]: [AuraSkills] Enabling AuraSkills v2.3.3
+[14:33:40] [ForkJoinPool.commonPool-worker-1/INFO]: [VeinMiner] You are on the latest version of VeinMiner!
+[14:33:41] [Server thread/INFO]: [AuraSkills] Loaded 21 message files
+[14:33:41] [Server thread/INFO]: [AuraSkills] Successfully registered hook Vault
+[14:33:41] [Server thread/INFO]: [AuraSkills] Loaded 158 config options in 23 ms
+[14:33:41] [Server thread/INFO]: [NBTAPI] [NBTAPI] Found Minecraft: 1.21.5! Trying to find NMS support
+[14:33:41] [Server thread/INFO]: [NBTAPI] [NBTAPI] NMS support 'MC1_21_R4' loaded!
+[14:33:41] [Server thread/INFO]: [NBTAPI] [NBTAPI] Using the plugin 'AuraSkills' to create a bStats instance!
+[14:33:41] [Server thread/INFO]: [AuraSkills] Loaded 3 blocked/disabled worlds
+[14:33:41] [Server thread/INFO]: [AuraSkills] [ACF] Enabled Asynchronous Tab Completion Support!
+[14:33:42] [Server thread/INFO]: [ClearLag] Enabling ClearLag v3.2.2
+[14:33:42] [Server thread/INFO]: [ClearLag] Using version-adapter: LatestVersionAdapter
+[14:33:42] [Server thread/INFO]: [ClearLag] Loading modules...
+[14:33:42] [Server thread/WARN]: [ClearLag] Clearlag failed to use the internal TPS tracker during initialization. Reverted to estimation... (Index 3 out of bounds for length 3)
+[14:33:42] [Server thread/INFO]: [ClearLag] Modules enabed, loading config values
+[14:33:42] [Server thread/INFO]: [ClearLag] Modules have been loaded!
+[14:33:42] [Server thread/INFO]: [ClearLag] Clearlag is now enabled!
+[14:33:42] [Thread-7/WARN]: [ClearLag] Clearlag failed to check for updates - bukkit may be down
+[14:33:42] [Thread-7/WARN]: java.lang.ArrayIndexOutOfBoundsException: Index 3 out of bounds for length 3
+[14:33:42] [Thread-7/WARN]: 	at Clearlag.jar//me.minebuilders.clearlag.Util.getBukkitVersion(Util.java:105)
+[14:33:42] [Thread-7/WARN]: 	at Clearlag.jar//me.minebuilders.clearlag.BukkitUpdater.updateAvailable(BukkitUpdater.java:32)
+[14:33:42] [Thread-7/WARN]: 	at Clearlag.jar//me.minebuilders.clearlag.BukkitUpdater.run(BukkitUpdater.java:82)
+[14:33:42] [Thread-7/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+[14:33:42] [Server thread/INFO]: [Essentials] Enabling Essentials v2.21.2-dev+2-d42347f
+[14:33:43] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
+[14:33:43] [Server thread/INFO]: [Essentials] No kits found to migrate.
+[14:33:43] [Server thread/INFO]: [Essentials] Selected Paper Known Commands Provider as the provider for KnownCommandsProvider
+[14:33:43] [Server thread/INFO]: [Essentials] Selected Paper Container Provider as the provider for ContainerProvider
+[14:33:43] [Server thread/INFO]: [Essentials] Selected 1.14.4+ Persistent Data Container Provider as the provider for PersistentDataProvider
+[14:33:43] [Server thread/INFO]: [Essentials] Selected 1.8.3+ Spawner Item Provider as the provider for SpawnerItemProvider
+[14:33:43] [Server thread/INFO]: [Essentials] Selected 1.21+ InventoryView Interface ABI Provider as the provider for InventoryViewProvider
+[14:33:43] [Server thread/INFO]: [Essentials] Selected Paper Server State Provider as the provider for ServerStateProvider
+[14:33:43] [Server thread/INFO]: [Essentials] Selected 1.11+ Item Unbreakable Provider as the provider for ItemUnbreakableProvider
+[14:33:43] [Server thread/INFO]: [Essentials] Selected 1.20.6+ Potion Meta Provider as the provider for PotionMetaProvider
+[14:33:43] [Server thread/INFO]: [Essentials] Selected Paper Serialization Provider as the provider for SerializationProvider
+[14:33:43] [Server thread/INFO]: [Essentials] Selected Reflection Formatted Command Alias Provider as the provider for FormattedCommandAliasProvider
+[14:33:43] [Server thread/INFO]: [Essentials] Selected 1.20.5+ Banner Data Provider as the provider for BannerDataProvider
+[14:33:43] [Server thread/INFO]: [Essentials] Selected 1.17.1+ World Info Provider as the provider for WorldInfoProvider
+[14:33:43] [Server thread/INFO]: [Essentials] Selected 1.13+ Spawn Egg Provider as the provider for SpawnEggProvider
+[14:33:43] [Server thread/INFO]: [Essentials] Selected 1.14+ Sign Data Provider as the provider for SignDataProvider
+[14:33:43] [Server thread/INFO]: [Essentials] Selected 1.20.4+ Damage Event Provider as the provider for DamageEventProvider
+[14:33:43] [Server thread/INFO]: [Essentials] Selected Paper Material Tag Provider as the provider for MaterialTagProvider
+[14:33:43] [Server thread/INFO]: [Essentials] Selected Paper Biome Key Provider as the provider for BiomeKeyProvider
+[14:33:43] [Server thread/INFO]: [Essentials] Selected 1.12+ Spawner Block Provider as the provider for SpawnerBlockProvider
+[14:33:43] [Server thread/INFO]: [Essentials] Selected 1.12.2+ Player Locale Provider as the provider for PlayerLocaleProvider
+[14:33:43] [Server thread/INFO]: [Essentials] Selected Paper Tick Count Provider as the provider for TickCountProvider
+[14:33:43] [Server thread/INFO]: [Essentials] Selected Reflection Online Mode Provider as the provider for OnlineModeProvider
+[14:33:43] [Server thread/INFO]: [Essentials] Selected 1.21.4+ Sync Commands Provider as the provider for SyncCommandsProvider
+[14:33:43] [Server thread/INFO]: [Essentials] Loaded 43517 items from items.json.
+[14:33:43] [Server thread/INFO]: [Essentials] Using locale en
+[14:33:43] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[14:33:44] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[14:33:44] [Server thread/INFO]: [Vault] [Economy] Essentials Economy hooked.
+[14:33:44] [Server thread/INFO]: [Essentials] Using config file enhanced permissions.
+[14:33:44] [Server thread/INFO]: [Essentials] Permissions listed in as player-commands will be given to all users.
+[14:33:44] [Server thread/INFO]: [AxGraves] Enabling AxGraves v1.21.1
+[14:33:45] [Server thread/INFO]: [spark] Starting background profiler...
+[14:33:45] [Server thread/INFO]: Done preparing level "world" (8.330s)
+[14:33:45] [Server thread/INFO]: Running delayed init tasks
+[14:33:45] [Craft Scheduler Thread - 3 - Essentials/INFO]: [Essentials] Fetching version information...
+[14:33:45] [Server thread/INFO]: [AuraSkills] Loaded 11 skills with 317 total sources
+[14:33:45] [Server thread/INFO]: [AuraSkills] Loaded 9 stats and 17 traits
+[14:33:45] [Server thread/INFO]: [AuraSkills] Loaded 22 pattern rewards and 0 level rewards
+[14:33:45] [Server thread/INFO]: [AuraSkills] Loaded 53 loot entries in 4 pools and 2 tables
+[14:33:45] [Server thread/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[14:33:45] [Server thread/INFO]: [AuraSkills] Loaded 7 menus
+[14:33:45] [Server thread/INFO]: [Essentials] Essentials found a compatible payment resolution method: Vault Compatibility Layer (v1.7.3-b131)!
+[14:33:45] [Server thread/INFO]: Done (20.519s)! For help, type "help"
+[14:33:45] [Craft Scheduler Thread - 2 - Vault/INFO]: [Vault] Checking for Updates ... 
+[14:33:46] [Craft Scheduler Thread - 2 - Vault/INFO]: [Vault] No new version available
+[14:37:20] [User Authenticator #0/INFO]: UUID of player Tristan is b953cca5-dd51-3fd6-9460-dbd9f0e5a603
+[14:37:22] [Server thread/INFO]: Tristan joined the game
+[14:37:23] [Server thread/INFO]: Tristan[/127.103.129.149:47073] logged in with entity id 14 at ([world]-187.30000001192093, 66.01889267593958, -21.93418004662901)
+[14:39:46] [Server thread/INFO]: Tristan lost connection: Disconnected
+[14:39:46] [Server thread/INFO]: Tristan left the game
+[14:40:04] [Server thread/INFO]: Stopping the server
+[14:40:04] [Server thread/INFO]: Stopping server
+[14:40:04] [Server thread/INFO]: [AxGraves] Disabling AxGraves v1.21.1
+[14:40:04] [Server thread/INFO]: [Essentials] Disabling Essentials v2.21.2-dev+2-d42347f
+[14:40:04] [Server thread/INFO]: [Vault] [Economy] Essentials Economy unhooked.
+[14:40:04] [Server thread/INFO]: [ClearLag] Disabling ClearLag v3.2.2
+[14:40:04] [Server thread/INFO]: [ClearLag] Clearlag is now disabled!
+[14:40:04] [Server thread/INFO]: [AuraSkills] Disabling AuraSkills v2.3.3
+[14:40:04] [Server thread/INFO]: [VeinMiner] Disabling VeinMiner v2.3.0
+[14:40:04] [Server thread/INFO]: [VeinMiner] Clearing localized data
+[14:40:04] [Server thread/INFO]: [Vault] Disabling Vault v1.7.3-b131
+[14:40:04] [Server thread/INFO]: Saving players
+[14:40:04] [Server thread/INFO]: Saving worlds
+[14:40:04] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[14:40:04] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[14:40:04] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[14:40:04] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[14:40:05] [Server thread/INFO]: [ChunkHolderManager] Saved 565 block chunks, 561 entity chunks, 1 poi chunks in world 'world' in 1.02s
+[14:40:05] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world'
+[14:40:05] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world'
+[14:40:05] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[14:40:05] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[14:40:05] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[14:40:05] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[14:40:05] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 1 entity chunks, 0 poi chunks in world 'world_nether' in 0.00s
+[14:40:05] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_nether'
+[14:40:05] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_nether'
+[14:40:05] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[14:40:05] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[14:40:05] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[14:40:05] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[14:40:05] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 10 entity chunks, 0 poi chunks in world 'world_the_end' in 0.01s
+[14:40:05] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_the_end'
+[14:40:05] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_the_end'
+[14:40:05] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[14:40:05] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[14:40:05] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[14:40:05] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[14:40:05] [Server thread/INFO]: Waiting for all RegionFile I/O tasks to complete...
+[14:40:05] [Server thread/INFO]: All RegionFile I/O tasks to complete
+[14:40:05] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
+[14:40:05] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...
